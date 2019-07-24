@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Atata" Version="1.2.0" />
+    <PackageReference Include="Atata.WebDriverExtras" Version="1.2.0" />
+    <PackageReference Include="Selenium.Chrome.WebDriver" Version="75.0.0" />
+    <PackageReference Include="Selenium.Helper" Version="1.0.1" />
+    <PackageReference Include="Selenium.Support" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="75.0.3770.140" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.1" />
+  </ItemGroup>
+
+</Project>
